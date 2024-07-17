@@ -1,0 +1,58 @@
+.Products .h1 {
+    color: var(--main-color);
+    font-weight: 600;
+}
+.pro_card{
+    background-color: #ffff;
+}
+.pro_card .card_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.pro_card .card_img img{
+    width: 80%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.pro_card .card_img img:hover{
+    transform: scale(1.1);
+}
+.card_body{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.card_body p{
+    font-size: 18px;
+    margin: 0 !important;
+
+}
+.card_body del{
+    margin-left: 10px;
+    opacity: 0.7;
+    font-weight: 400;
+}
+.card_body .icones{
+    color: gold;
+    font-size: 20px ;
+}
+.card_body .proccess{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+}
+.card_body .proccess .icon{
+    padding: 7px 7px;
+    border-radius: 5px;
+    color: #fff;
+    font-size:18px;
+    background-color: var(--main-color);
+    cursor: pointer;
+}

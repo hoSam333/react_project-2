@@ -1,0 +1,33 @@
+.Navbar nav {
+    background-color: #3d464d;
+    color: #fff;
+    padding: 10px 20px;
+}
+.nav-link{
+    color: #fff !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+}
+.nav-link:hover{
+    color: var(--main-color) !important;
+}
+.navbar-brand{
+    color: #fff !important;
+    font-size: 25px !important;
+    font-weight: 500;
+}
+.navbar-brand span{
+    color: var(--main-color);
+}
+.icone{
+    color: var(--main-color);
+    cursor: pointer;
+}
+.icone sub{
+    color: #fff;
+    font-size: 16px;
+}
+
+.dropdown-menu{
+    background-color: var(--main-color) !important;
+}

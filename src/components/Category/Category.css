@@ -1,0 +1,11 @@
+.Category .cat_card {
+    background-color: var(--sec-bg) ;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: 1s;
+}
+.Category .cat_card  img{
+    width: 70px;
+    height: 70px;
+}
